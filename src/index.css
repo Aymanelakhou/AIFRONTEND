@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* أزرار عامة */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 rounded-lg font-semibold text-gray-800 bg-gray-300 hover:bg-gray-400 transition;
+}
+
+/* كروت */
+.card {
+  @apply bg-white dark:bg-gray-800 shadow-md rounded-xl p-6 transition;
+}
+
+/* صندوق Generate في الوسط */
+.generate-box {
+  @apply flex flex-col items-center justify-center w-full max-w-md mx-auto mt-10 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg;
+}
